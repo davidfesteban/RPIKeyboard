@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'rpiKeyboard'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.fazecast:jSerialComm:[2.0.0,3.0.0)'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
