@@ -23,4 +23,5 @@ I will write here each material used:
 # FAQs
 
 #### Why Java?
-Because Java lets you to ignore the OS.
+Because Java lets you to ignore the OS. That simple.
+It is hard to focus on your own system while you are fighting against all the peculiarities of each operative system. I wanted a portable solution, OS independant, Clean + Solid code. Yeah, I could make some module like future front in web tech like JS/TS.
