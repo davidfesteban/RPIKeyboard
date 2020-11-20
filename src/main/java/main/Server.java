@@ -21,12 +21,11 @@ public class Server extends Thread {
     @Override
     public void run() {
         super.run();
-        boolean shouldStop = true;
-        while (shouldStop) {
+        boolean shouldContinue = true;
+        while (shouldContinue) {
             try {
                 if (inputStream.available() > 0) {
-                    int inputReaded = read(inputStream);
-                    shouldStop = processInput(inputReaded, robot);
+                    shouldContinue = processInput(read(inputStream), robot);
                 }
             } catch (Exception e) {
                 e.printStackTrace();

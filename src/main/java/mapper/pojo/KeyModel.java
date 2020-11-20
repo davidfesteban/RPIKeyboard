@@ -13,9 +13,6 @@ public class KeyModel {
     @SerializedName("numbers")
     @Expose
     private List<Integer> numbers = null;
-    @SerializedName("mayus")
-    @Expose
-    private List<Integer> mayus = null;
     @SerializedName("minus")
     @Expose
     private List<Integer> minus = null;
@@ -35,14 +32,6 @@ public class KeyModel {
 
     public void setNumbers(List<Integer> numbers) {
         this.numbers = numbers;
-    }
-
-    public List<Integer> getMayus() {
-        return mayus;
-    }
-
-    public void setMayus(List<Integer> mayus) {
-        this.mayus = mayus;
     }
 
     public List<Integer> getMinus() {
